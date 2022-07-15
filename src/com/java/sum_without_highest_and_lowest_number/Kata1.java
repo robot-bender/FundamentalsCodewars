@@ -1,4 +1,5 @@
-package com.java;
+package com.java.sum_without_highest_and_lowest_number;
+
 
 public class Kata1 {
 
