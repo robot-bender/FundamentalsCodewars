@@ -9,7 +9,8 @@ public class Kata1 {
     }
 
     public int sumNumbersInTable(int[] myTable) {
-        for (int i = 0; i < myTable.length; i++) {
+
+        for (int i = 1; i < myTable.length-1; i++) {
             sumOfNumbers = sumOfNumbers + myTable[i];
         }
         return sumOfNumbers;
